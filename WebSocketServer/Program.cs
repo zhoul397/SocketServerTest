@@ -148,7 +148,7 @@ namespace WebSocketServer
         /// <summary>
         /// 打包服务器数据
         /// </summary>
-        /// <param name="message">消息</param>
+        /// <param name="message">数据</param>
         /// <returns>数据包</returns>
         private static byte[] PackData(string message)
         {
